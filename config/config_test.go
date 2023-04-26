@@ -11,7 +11,7 @@ import (
 )
 
 func TestNewConfig(t *testing.T) {
-	cfg, err := config.New("config.yaml")
+	cfg, err := config.New("../config.yaml")
 	require.NoError(t, err)
 	assert.Equal(t, 3, cfg.Workers)
 	assert.Equal(t, "5000", cfg.Port)

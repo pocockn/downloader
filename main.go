@@ -16,7 +16,7 @@ import (
 	"github.com/pocockn/downloader/worker"
 )
 
-const cfgPath = "config/config.yaml"
+const cfgPath = "config.yaml"
 
 func main() {
 	cfg, err := config.New(cfgPath)
