@@ -1,0 +1,7 @@
+# config.yml
+
+host: 127.0.0.1
+port: 5000
+workers: 3
+table_name: "urls"
+watch_interval: 60s
